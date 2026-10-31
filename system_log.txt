@@ -1,0 +1,1091 @@
+iew "HTTP/1.1 200 OK"
+2026-10-23 18:03:56 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-23 18:03:56 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-23 18:03:56 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-23 18:03:56 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-23 18:03:56 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-23 18:03:56 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-23 18:03:56 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=48ba58ec-a694-4eb4-84e4-20d1a24ce13e "HTTP/1.1 200 OK"
+2026-10-23 18:03:56 - WARNING - ⚠️ سهمیه استفاده از پردازش گرافیکی (ZeroGPU Quota) تمام شده است.
+2026-10-23 18:03:56 - WARNING -    - درخواست فرآیند: 170 ثانیه
+2026-10-23 18:03:56 - WARNING -    - سهمیه فعلی باقی‌مانده شما: 38 ثانیه
+2026-10-23 18:03:56 - WARNING -    - زمان انتظار اعلام شده توسط سرور: 18:25:59
+2026-10-23 18:03:56 - WARNING - 🛑 زمان انتظار مورد نیاز (18:25:59) از حد مجاز بیشتر است. عملیات متوقف می‌شود.
+2026-10-23 18:03:56 - ERROR - ❌ خطا در سرور r3gm/wan2-2-fp8da-aoti-preview: You have exceeded your ZeroGPU quota (170s requested vs. 38s left). Try again in 18:25:59. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens
+2026-10-23 18:03:56 - WARNING - ⚠️ ظرفیت یا سهمیه سرور به اتمام رسیده است.
+2026-10-23 18:03:56 - ERROR - ❌ عملیات روی تمام سرورها با شکست مواجه شد.
+2026-10-23 18:03:56 - INFO - 📄 فایل گزارش عدم موفقیت 'failed_d_seed25.txt' به صورت محلی ایجاد شد.
+2026-10-23 18:03:56 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'failed_d_seed25.txt'...
+2026-10-23 18:03:58 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1pgmKMr0p7QZcDHb738Nvgaa8jJnKesap/view?usp=drivesdk
+2026-10-23 18:03:58 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-23 23:10:53 - INFO - === شروع عملیات جدید ===
+2026-10-23 23:10:53 - INFO - 🌐 آدرس IP فعلی سیستم: 20.64.8.158
+2026-10-23 23:10:54 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-23 23:10:54 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-23 23:10:54 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-23 23:10:54 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-23 23:10:54 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-23 23:10:54 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 25 | سید (Seed) این اجرا: 25
+2026-10-23 23:10:54 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 3/10 | ویدیوی 6 از 10)
+2026-10-23 23:10:54 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-23 23:10:54 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-23 23:10:55 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-23 23:10:55 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-23 23:10:55 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-23 23:10:55 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-23 23:10:55 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-23 23:10:55 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-23 23:10:56 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-23 23:10:56 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-23 23:10:56 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=fdd20e30-06e9-4780-83d1-a6832c83cd19 "HTTP/1.1 200 OK"
+2026-10-23 23:13:10 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/ab5c35be4781c6f9fa014e520c9ab0307264a1a59f44763fb7326abc9519b706/tmpyg6n6jvg.mp4 "HTTP/1.1 403 Forbidden"
+2026-10-23 23:13:10 - ERROR - ❌ خطا در سرور r3gm/wan2-2-fp8da-aoti-preview: Client error '403 Forbidden' for url 'https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/ab5c35be4781c6f9fa014e520c9ab0307264a1a59f44763fb7326abc9519b706/tmpyg6n6jvg.mp4'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-10-23 23:13:10 - ERROR - ❌ عملیات روی تمام سرورها با شکست مواجه شد.
+2026-10-23 23:13:10 - INFO - 📄 فایل گزارش عدم موفقیت 'failed_d_seed25.txt' به صورت محلی ایجاد شد.
+2026-10-23 23:13:10 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'failed_d_seed25.txt'...
+2026-10-23 23:13:11 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1NqVwttrmE3pP0zv_HTb7LJ7zImVgoo86/view?usp=drivesdk
+2026-10-23 23:13:11 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-24 02:42:47 - INFO - === شروع عملیات جدید ===
+2026-10-24 02:42:48 - INFO - 🌐 آدرس IP فعلی سیستم: 20.169.65.232
+2026-10-24 02:42:49 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-24 02:42:49 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-24 02:42:49 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-24 02:42:50 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-24 02:42:50 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-24 02:42:50 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 25 | سید (Seed) این اجرا: 25
+2026-10-24 02:42:50 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 3/10 | ویدیوی 6 از 10)
+2026-10-24 02:42:50 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-24 02:42:50 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-24 02:42:50 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-24 02:42:50 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-24 02:42:50 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-24 02:42:51 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-24 02:42:51 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-24 02:42:51 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-24 02:42:51 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-24 02:42:52 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-24 02:42:52 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=79496382-aacc-41db-843a-6eb4be6798b3 "HTTP/1.1 200 OK"
+2026-10-24 02:44:47 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/721714b9e71da6a12bff146181430da350b3cf72b1c4d52c8421aef98bd085e3/tmpablmqend.mp4 "HTTP/1.1 200 OK"
+2026-10-24 02:44:48 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-24 02:44:48 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-24 02:44:53 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 58.08MB ⬅️ حجم نهایی: 5.22MB)
+2026-10-24 02:44:53 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-24 02:44:53 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed25_v26.mp4'...
+2026-10-24 02:44:55 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1KlTeoQ4SjEj1BNdvuHcP-ChDZpGgq3Tj/view?usp=drivesdk
+2026-10-24 02:44:56 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 26
+2026-10-24 02:44:56 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-24 02:44:56 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-24 06:13:47 - INFO - === شروع عملیات جدید ===
+2026-10-24 06:13:47 - INFO - 🌐 آدرس IP فعلی سیستم: 130.131.214.2
+2026-10-24 06:13:48 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-24 06:13:48 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-24 06:13:49 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-24 06:13:49 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-24 06:13:49 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-24 06:13:49 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 26 | سید (Seed) این اجرا: 26
+2026-10-24 06:13:49 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 3/10 | ویدیوی 7 از 10)
+2026-10-24 06:13:49 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-24 06:13:49 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-24 06:13:50 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-24 06:13:50 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-24 06:13:50 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-24 06:13:50 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-24 06:13:50 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-24 06:13:50 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-24 06:13:51 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-24 06:13:51 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-24 06:13:51 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=b480a793-9196-4bcb-968e-dc90cfc895d3 "HTTP/1.1 200 OK"
+2026-10-24 06:13:51 - WARNING - ⚠️ سهمیه استفاده از پردازش گرافیکی (ZeroGPU Quota) تمام شده است.
+2026-10-24 06:13:51 - WARNING -    - درخواست فرآیند: 170 ثانیه
+2026-10-24 06:13:51 - WARNING -    - سهمیه فعلی باقی‌مانده شما: 42 ثانیه
+2026-10-24 06:13:51 - WARNING -    - زمان انتظار اعلام شده توسط سرور: 18:22:18
+2026-10-24 06:13:51 - WARNING - 🛑 زمان انتظار مورد نیاز (18:22:18) از حد مجاز بیشتر است. عملیات متوقف می‌شود.
+2026-10-24 06:13:51 - ERROR - ❌ خطا در سرور r3gm/wan2-2-fp8da-aoti-preview: You have exceeded your ZeroGPU quota (170s requested vs. 42s left). Try again in 18:22:18. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens
+2026-10-24 06:13:51 - WARNING - ⚠️ ظرفیت یا سهمیه سرور به اتمام رسیده است.
+2026-10-24 06:13:51 - ERROR - ❌ عملیات روی تمام سرورها با شکست مواجه شد.
+2026-10-24 06:13:51 - INFO - 📄 فایل گزارش عدم موفقیت 'failed_d_seed26.txt' به صورت محلی ایجاد شد.
+2026-10-24 06:13:51 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'failed_d_seed26.txt'...
+2026-10-24 06:13:52 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1gy0Rhp_glO1ni6kVNjWIOcftg5JTDrHC/view?usp=drivesdk
+2026-10-24 06:13:52 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-24 12:02:14 - INFO - === شروع عملیات جدید ===
+2026-10-24 12:02:14 - INFO - 🌐 آدرس IP فعلی سیستم: 135.233.118.65
+2026-10-24 12:02:15 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-24 12:02:15 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-24 12:02:16 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-24 12:02:16 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-24 12:02:16 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-24 12:02:16 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 26 | سید (Seed) این اجرا: 26
+2026-10-24 12:02:16 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 3/10 | ویدیوی 7 از 10)
+2026-10-24 12:02:16 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-24 12:02:16 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-24 12:02:16 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-24 12:02:16 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-24 12:02:17 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-24 12:02:17 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-24 12:02:17 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-24 12:02:17 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-24 12:02:17 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-24 12:02:18 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-24 12:02:18 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=fa5ddfc4-4143-4a3c-9355-2f405bd23ddd "HTTP/1.1 200 OK"
+2026-10-24 12:04:17 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/e8b69bff3176eb4da800dc3988ad611d1a736b0fbe315c136e0961f9a8a42408/tmplaz_1pzz.mp4 "HTTP/1.1 200 OK"
+2026-10-24 12:04:17 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-24 12:04:17 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-24 12:04:21 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 57.66MB ⬅️ حجم نهایی: 5.23MB)
+2026-10-24 12:04:21 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-24 12:04:21 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed26_v27.mp4'...
+2026-10-24 12:04:23 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1CIwMtQA6ArXIkAsZvci77TedIh7qfc58/view?usp=drivesdk
+2026-10-24 12:04:23 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 27
+2026-10-24 12:04:23 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-24 12:04:24 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-24 17:15:43 - INFO - === شروع عملیات جدید ===
+2026-10-24 17:15:43 - INFO - 🌐 آدرس IP فعلی سیستم: 158.23.19.39
+2026-10-24 17:15:44 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-24 17:15:44 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-24 17:15:45 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-24 17:15:45 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-24 17:15:45 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-24 17:15:45 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 27 | سید (Seed) این اجرا: 27
+2026-10-24 17:15:45 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 3/10 | ویدیوی 8 از 10)
+2026-10-24 17:15:45 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-24 17:15:46 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-24 17:15:46 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-24 17:15:46 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-24 17:15:46 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-24 17:15:46 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-24 17:15:47 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-24 17:15:47 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-24 17:15:47 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-24 17:15:47 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-24 17:15:48 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=85f971b3-be53-4216-b270-b9dbd94c2262 "HTTP/1.1 200 OK"
+2026-10-24 17:17:29 - ERROR - ❌ خطا در سرور r3gm/wan2-2-fp8da-aoti-preview: GPU task aborted
+2026-10-24 17:17:29 - WARNING - ⚠️ فرآیند در سرور لغو شد.
+2026-10-24 17:17:29 - ERROR - ❌ عملیات روی تمام سرورها با شکست مواجه شد.
+2026-10-24 17:17:29 - INFO - 📄 فایل گزارش عدم موفقیت 'failed_d_seed27.txt' به صورت محلی ایجاد شد.
+2026-10-24 17:17:29 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'failed_d_seed27.txt'...
+2026-10-24 17:17:30 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1b5D_MkwuJ1GLJjp53oerxi_wWRWhplTv/view?usp=drivesdk
+2026-10-24 17:17:30 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-24 20:37:41 - INFO - === شروع عملیات جدید ===
+2026-10-24 20:37:42 - INFO - 🌐 آدرس IP فعلی سیستم: 48.217.108.208
+2026-10-24 20:37:43 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-24 20:37:43 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-24 20:37:43 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-24 20:37:43 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-24 20:37:43 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-24 20:37:43 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 27 | سید (Seed) این اجرا: 27
+2026-10-24 20:37:43 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 3/10 | ویدیوی 8 از 10)
+2026-10-24 20:37:43 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-24 20:37:44 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-24 20:37:44 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-24 20:37:44 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-24 20:37:44 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-24 20:37:44 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-24 20:37:44 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-24 20:37:44 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-24 20:37:44 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-24 20:37:44 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-24 20:37:44 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=f47affab-a93b-45a2-8bb2-8a2f119b153d "HTTP/1.1 200 OK"
+2026-10-24 20:39:20 - ERROR - ❌ خطا در سرور r3gm/wan2-2-fp8da-aoti-preview: GPU task aborted
+2026-10-24 20:39:20 - WARNING - ⚠️ فرآیند در سرور لغو شد.
+2026-10-24 20:39:20 - ERROR - ❌ عملیات روی تمام سرورها با شکست مواجه شد.
+2026-10-24 20:39:20 - INFO - 📄 فایل گزارش عدم موفقیت 'failed_d_seed27.txt' به صورت محلی ایجاد شد.
+2026-10-24 20:39:20 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'failed_d_seed27.txt'...
+2026-10-24 20:39:22 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1eknoP451wQ3BKJiY0dBAR1O0OgLuFIPy/view?usp=drivesdk
+2026-10-24 20:39:22 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-24 23:31:30 - INFO - === شروع عملیات جدید ===
+2026-10-24 23:31:30 - INFO - 🌐 آدرس IP فعلی سیستم: 48.214.55.52
+2026-10-24 23:31:31 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-24 23:31:31 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-24 23:31:32 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-24 23:31:32 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-24 23:31:32 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-24 23:31:32 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 27 | سید (Seed) این اجرا: 27
+2026-10-24 23:31:32 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 3/10 | ویدیوی 8 از 10)
+2026-10-24 23:31:32 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-24 23:31:32 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-24 23:31:32 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-24 23:31:32 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-24 23:31:33 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-24 23:31:33 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-24 23:31:33 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-24 23:31:33 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-24 23:31:33 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-24 23:31:33 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-24 23:31:33 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=86fa5fc3-2797-4f63-a2d5-e0b456bcf8c0 "HTTP/1.1 200 OK"
+2026-10-24 23:33:08 - ERROR - ❌ خطا در سرور r3gm/wan2-2-fp8da-aoti-preview: GPU task aborted
+2026-10-24 23:33:08 - WARNING - ⚠️ فرآیند در سرور لغو شد.
+2026-10-24 23:33:08 - ERROR - ❌ عملیات روی تمام سرورها با شکست مواجه شد.
+2026-10-24 23:33:08 - INFO - 📄 فایل گزارش عدم موفقیت 'failed_d_seed27.txt' به صورت محلی ایجاد شد.
+2026-10-24 23:33:08 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'failed_d_seed27.txt'...
+2026-10-24 23:33:10 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1qafB5BUBkgaW-h16R-wQi86-ixJsfefN/view?usp=drivesdk
+2026-10-24 23:33:10 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-25 03:23:49 - INFO - === شروع عملیات جدید ===
+2026-10-25 03:23:49 - INFO - 🌐 آدرس IP فعلی سیستم: 20.168.157.146
+2026-10-25 03:23:50 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-25 03:23:50 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-25 03:23:51 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-25 03:23:51 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-25 03:23:51 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-25 03:23:51 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 27 | سید (Seed) این اجرا: 27
+2026-10-25 03:23:51 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 3/10 | ویدیوی 8 از 10)
+2026-10-25 03:23:51 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-25 03:23:52 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-25 03:23:52 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-25 03:23:52 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-25 03:23:52 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-25 03:23:52 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-25 03:23:53 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-25 03:23:53 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-25 03:23:53 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-25 03:23:54 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-25 03:23:54 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=fd01fb62-75bc-4bd5-adc4-5d00df8c8709 "HTTP/1.1 200 OK"
+2026-10-25 03:25:43 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/33f4d100f8f0e722b7aa69d66456e4fa31204bf3ae4e029e058e84ffb596c540/tmpsqrx7wfh.mp4 "HTTP/1.1 200 OK"
+2026-10-25 03:25:44 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-25 03:25:44 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-25 03:25:51 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 57.28MB ⬅️ حجم نهایی: 5.20MB)
+2026-10-25 03:25:51 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-25 03:25:51 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed27_v28.mp4'...
+2026-10-25 03:25:53 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1-dkwx-ycxYeIeU6kxxzS9QVkZnboafCi/view?usp=drivesdk
+2026-10-25 03:25:54 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 28
+2026-10-25 03:25:54 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-25 03:25:54 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-25 06:03:16 - INFO - === شروع عملیات جدید ===
+2026-10-25 06:03:16 - INFO - 🌐 آدرس IP فعلی سیستم: 20.3.189.241
+2026-10-25 06:03:17 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-25 06:03:17 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-25 06:03:17 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-25 06:03:18 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-25 06:03:18 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-25 06:03:18 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 28 | سید (Seed) این اجرا: 28
+2026-10-25 06:03:18 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 3/10 | ویدیوی 9 از 10)
+2026-10-25 06:03:18 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-25 06:03:18 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-25 06:03:18 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-25 06:03:18 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-25 06:03:19 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-25 06:03:19 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-25 06:03:19 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-25 06:03:19 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-25 06:03:20 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-25 06:03:20 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-25 06:03:21 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=1129c716-2277-4d1d-aa11-5cdcb74e0b3b "HTTP/1.1 200 OK"
+2026-10-25 06:05:08 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/35e1309aa9ba3ce81594c998d7b092bc57f65683f68ebb1c979fb941c9cf682a/tmp8lnmnuho.mp4 "HTTP/1.1 200 OK"
+2026-10-25 06:05:09 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-25 06:05:09 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-25 06:05:14 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 58.87MB ⬅️ حجم نهایی: 5.31MB)
+2026-10-25 06:05:14 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-25 06:05:14 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed28_v29.mp4'...
+2026-10-25 06:05:15 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1wiyabnVWEYZCvqXMv_gAqYfpqJ3WiLOv/view?usp=drivesdk
+2026-10-25 06:05:17 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 29
+2026-10-25 06:05:17 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-25 06:05:17 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-25 12:21:19 - INFO - === شروع عملیات جدید ===
+2026-10-25 12:21:19 - INFO - 🌐 آدرس IP فعلی سیستم: 130.131.205.178
+2026-10-25 12:21:21 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-25 12:21:21 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-25 12:21:21 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-25 12:21:22 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-25 12:21:22 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-25 12:21:22 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 29 | سید (Seed) این اجرا: 29
+2026-10-25 12:21:22 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 3/10 | ویدیوی 10 از 10)
+2026-10-25 12:21:22 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-25 12:21:22 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-25 12:21:22 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-25 12:21:22 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-25 12:21:22 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-25 12:21:22 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-25 12:21:23 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-25 12:21:23 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-25 12:21:23 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-25 12:21:23 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-25 12:21:23 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=702dd9c0-3688-482d-b608-d66af5c5dff2 "HTTP/1.1 200 OK"
+2026-10-25 12:23:05 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/1660e0f208c90fbc32925857b913bc1b0090ea3bd00cb66739867c7592e0229d/tmp29_irdvd.mp4 "HTTP/1.1 200 OK"
+2026-10-25 12:23:06 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-25 12:23:06 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-25 12:23:11 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 58.92MB ⬅️ حجم نهایی: 5.28MB)
+2026-10-25 12:23:11 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-25 12:23:11 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed29_v30.mp4'...
+2026-10-25 12:23:13 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1oXibFzNMhJHNQui1mx3s5C4C8ltENss-/view?usp=drivesdk
+2026-10-25 12:23:14 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 30
+2026-10-25 12:23:14 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-25 12:23:14 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-25 17:32:10 - INFO - === شروع عملیات جدید ===
+2026-10-25 17:32:10 - INFO - 🌐 آدرس IP فعلی سیستم: 40.122.243.163
+2026-10-25 17:32:11 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-25 17:32:11 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-25 17:32:12 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-25 17:32:12 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-25 17:32:12 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-25 17:32:12 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 30 | سید (Seed) این اجرا: 30
+2026-10-25 17:32:12 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 4/10 | ویدیوی 1 از 10)
+2026-10-25 17:32:12 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-25 17:32:12 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-25 17:32:12 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-25 17:32:12 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-25 17:32:12 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-25 17:32:13 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-25 17:32:13 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-25 17:32:13 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-25 17:32:13 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-25 17:32:13 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-25 17:32:13 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=4f4639ac-bf48-4366-9594-7c83e997254e "HTTP/1.1 200 OK"
+2026-10-25 17:33:54 - ERROR - ❌ خطا در سرور r3gm/wan2-2-fp8da-aoti-preview: GPU task aborted
+2026-10-25 17:33:54 - WARNING - ⚠️ فرآیند در سرور لغو شد.
+2026-10-25 17:33:54 - ERROR - ❌ عملیات روی تمام سرورها با شکست مواجه شد.
+2026-10-25 17:33:54 - INFO - 📄 فایل گزارش عدم موفقیت 'failed_d_seed30.txt' به صورت محلی ایجاد شد.
+2026-10-25 17:33:54 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'failed_d_seed30.txt'...
+2026-10-25 17:33:55 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1-1R5KNBXvsgpN5DVAU3k6ndlZk4DQmGC/view?usp=drivesdk
+2026-10-25 17:33:55 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-25 22:09:24 - INFO - === شروع عملیات جدید ===
+2026-10-25 22:09:24 - INFO - 🌐 آدرس IP فعلی سیستم: 40.75.133.103
+2026-10-25 22:09:25 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-25 22:09:25 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-25 22:09:26 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-25 22:09:26 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-25 22:09:26 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-25 22:09:26 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 30 | سید (Seed) این اجرا: 30
+2026-10-25 22:09:26 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 4/10 | ویدیوی 1 از 10)
+2026-10-25 22:09:26 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-25 22:09:26 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-25 22:09:26 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-25 22:09:27 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-25 22:09:27 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-25 22:09:27 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-25 22:09:27 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-25 22:09:27 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-25 22:09:28 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-25 22:09:28 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-25 22:09:29 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=11ac9bb7-1a6e-4ddf-b914-3d84839da0b8 "HTTP/1.1 200 OK"
+2026-10-25 22:11:12 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/a7114f92cd8c3a1c1bf0a1869bca72a594d40c79e4236987e3e45ab096c0984f/tmpma3v8lov.mp4 "HTTP/1.1 200 OK"
+2026-10-25 22:11:13 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-25 22:11:13 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-25 22:11:20 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 56.34MB ⬅️ حجم نهایی: 5.17MB)
+2026-10-25 22:11:20 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-25 22:11:20 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed30_v31.mp4'...
+2026-10-25 22:11:22 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/13SultqM6qVLiKMixypfsfUxljYl68cG0/view?usp=drivesdk
+2026-10-25 22:11:23 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 31
+2026-10-25 22:11:23 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-25 22:11:23 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-26 01:42:38 - INFO - === شروع عملیات جدید ===
+2026-10-26 01:42:38 - INFO - 🌐 آدرس IP فعلی سیستم: 4.149.244.226
+2026-10-26 01:42:39 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-26 01:42:39 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-26 01:42:40 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-26 01:42:40 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-26 01:42:40 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-26 01:42:40 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 31 | سید (Seed) این اجرا: 31
+2026-10-26 01:42:40 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 4/10 | ویدیوی 2 از 10)
+2026-10-26 01:42:40 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-26 01:42:41 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-26 01:42:41 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-26 01:42:41 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-26 01:42:41 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-26 01:42:41 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-26 01:42:42 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-26 01:42:42 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-26 01:42:42 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-26 01:42:43 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-26 01:42:43 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=876c4e21-56b9-47cf-916a-410be7db7ac3 "HTTP/1.1 200 OK"
+2026-10-26 01:44:31 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/45130cc9dd6337eaec770ec396b37a46aa536e6a678f0214cc2fc1fe0090d8a5/tmprg_yuzbo.mp4 "HTTP/1.1 200 OK"
+2026-10-26 01:44:32 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-26 01:44:32 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-26 01:44:36 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 58.65MB ⬅️ حجم نهایی: 5.14MB)
+2026-10-26 01:44:36 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-26 01:44:36 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed31_v32.mp4'...
+2026-10-26 01:44:37 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1YbjG-zojOLRZkzlXOC36SruMP_-D8Qdd/view?usp=drivesdk
+2026-10-26 01:44:38 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 32
+2026-10-26 01:44:38 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-26 01:44:38 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-26 06:02:29 - INFO - === شروع عملیات جدید ===
+2026-10-26 06:02:29 - INFO - 🌐 آدرس IP فعلی سیستم: 20.168.249.146
+2026-10-26 06:02:30 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-26 06:02:30 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-26 06:02:30 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-26 06:02:31 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-26 06:02:31 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-26 06:02:31 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 32 | سید (Seed) این اجرا: 32
+2026-10-26 06:02:31 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 4/10 | ویدیوی 3 از 10)
+2026-10-26 06:02:31 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-26 06:02:31 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-26 06:02:31 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-26 06:02:31 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-26 06:02:31 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-26 06:02:31 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-26 06:02:31 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-26 06:02:31 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-26 06:02:31 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-26 06:02:31 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-26 06:02:32 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=f5df8f2f-19e0-4414-b9a5-9053a96e8413 "HTTP/1.1 200 OK"
+2026-10-26 06:04:18 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/1b55e5dd0d085f846aa37eef564d30866f0e803c18570f8f94a345713e980cda/tmpum3y7zsj.mp4 "HTTP/1.1 200 OK"
+2026-10-26 06:04:18 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-26 06:04:18 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-26 06:04:25 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 59.00MB ⬅️ حجم نهایی: 5.14MB)
+2026-10-26 06:04:25 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-26 06:04:25 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed32_v33.mp4'...
+2026-10-26 06:04:27 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1NwaVAs2OgGKEZMObYNExTVyvUjTDdU35/view?usp=drivesdk
+2026-10-26 06:04:28 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 33
+2026-10-26 06:04:28 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-26 06:04:28 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-26 13:02:21 - INFO - === شروع عملیات جدید ===
+2026-10-26 13:02:21 - INFO - 🌐 آدرس IP فعلی سیستم: 172.190.124.68
+2026-10-26 13:02:22 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-26 13:02:22 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-26 13:02:22 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-26 13:02:23 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-26 13:02:23 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-26 13:02:23 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 33 | سید (Seed) این اجرا: 33
+2026-10-26 13:02:23 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 4/10 | ویدیوی 4 از 10)
+2026-10-26 13:02:23 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-26 13:02:23 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-26 13:02:23 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-26 13:02:23 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-26 13:02:23 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-26 13:02:23 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-26 13:02:24 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-26 13:02:24 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-26 13:02:24 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-26 13:02:24 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-26 13:02:24 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=fe8ef99f-64ca-42eb-bfa5-c2636027f9ff "HTTP/1.1 200 OK"
+2026-10-26 13:04:10 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/f0f8880423d2a676d71c139de32301b4f6f7d5026e1d4644dfa1e0f3bd1542a1/tmpldvuxcmk.mp4 "HTTP/1.1 200 OK"
+2026-10-26 13:04:10 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-26 13:04:10 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-26 13:04:16 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 60.16MB ⬅️ حجم نهایی: 5.35MB)
+2026-10-26 13:04:16 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-26 13:04:16 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed33_v34.mp4'...
+2026-10-26 13:04:18 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1Rtfv1uVG8fz5jcKjuseEVZsamLkKKtRM/view?usp=drivesdk
+2026-10-26 13:04:19 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 34
+2026-10-26 13:04:19 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-26 13:04:19 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-26 19:54:01 - INFO - === شروع عملیات جدید ===
+2026-10-26 19:54:02 - INFO - 🌐 آدرس IP فعلی سیستم: 172.208.158.201
+2026-10-26 19:54:04 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-26 19:54:04 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-26 19:54:04 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-26 19:54:05 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-26 19:54:05 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-26 19:54:05 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 34 | سید (Seed) این اجرا: 34
+2026-10-26 19:54:05 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 4/10 | ویدیوی 5 از 10)
+2026-10-26 19:54:05 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-26 19:54:05 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-26 19:54:05 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-26 19:54:05 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-26 19:54:05 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-26 19:54:05 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-26 19:54:06 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-26 19:54:06 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-26 19:54:06 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-26 19:54:06 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-26 19:54:06 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=05d4dae0-8a72-4e55-a3fe-698e33adc1c9 "HTTP/1.1 200 OK"
+2026-10-26 19:56:37 - ERROR - ❌ خطا در سرور r3gm/wan2-2-fp8da-aoti-preview: GPU task aborted
+2026-10-26 19:56:37 - WARNING - ⚠️ فرآیند در سرور لغو شد.
+2026-10-26 19:56:37 - ERROR - ❌ عملیات روی تمام سرورها با شکست مواجه شد.
+2026-10-26 19:56:37 - INFO - 📄 فایل گزارش عدم موفقیت 'failed_d_seed34.txt' به صورت محلی ایجاد شد.
+2026-10-26 19:56:37 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'failed_d_seed34.txt'...
+2026-10-26 19:56:38 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1Xpqg1VaaWwMWzFVCQ3vcGy7fmjST2mHJ/view?usp=drivesdk
+2026-10-26 19:56:38 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-27 01:38:18 - INFO - === شروع عملیات جدید ===
+2026-10-27 01:38:18 - INFO - 🌐 آدرس IP فعلی سیستم: 132.196.38.97
+2026-10-27 01:38:19 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-27 01:38:19 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-27 01:38:19 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-27 01:38:20 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-27 01:38:20 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-27 01:38:20 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 34 | سید (Seed) این اجرا: 34
+2026-10-27 01:38:20 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 4/10 | ویدیوی 5 از 10)
+2026-10-27 01:38:20 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-27 01:38:20 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-27 01:38:20 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-27 01:38:20 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-27 01:38:20 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-27 01:38:21 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-27 01:38:21 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-27 01:38:21 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-27 01:38:21 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-27 01:38:21 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-27 01:38:22 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=f627ae4f-304b-4a4d-8a81-f42451e8f7b5 "HTTP/1.1 200 OK"
+2026-10-27 01:40:11 - ERROR - ❌ خطا در سرور r3gm/wan2-2-fp8da-aoti-preview: GPU task aborted
+2026-10-27 01:40:11 - WARNING - ⚠️ فرآیند در سرور لغو شد.
+2026-10-27 01:40:11 - ERROR - ❌ عملیات روی تمام سرورها با شکست مواجه شد.
+2026-10-27 01:40:11 - INFO - 📄 فایل گزارش عدم موفقیت 'failed_d_seed34.txt' به صورت محلی ایجاد شد.
+2026-10-27 01:40:11 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'failed_d_seed34.txt'...
+2026-10-27 01:40:13 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1qq7eczkx4TbphXVKrAixYNQYA52DfkHw/view?usp=drivesdk
+2026-10-27 01:40:13 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-27 06:37:10 - INFO - === شروع عملیات جدید ===
+2026-10-27 06:37:10 - INFO - 🌐 آدرس IP فعلی سیستم: 172.184.209.163
+2026-10-27 06:37:11 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-27 06:37:11 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-27 06:37:12 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-27 06:37:12 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-27 06:37:12 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-27 06:37:12 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 34 | سید (Seed) این اجرا: 34
+2026-10-27 06:37:12 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 4/10 | ویدیوی 5 از 10)
+2026-10-27 06:37:12 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-27 06:37:12 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-27 06:37:12 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-27 06:37:13 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-27 06:37:13 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-27 06:37:13 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-27 06:37:13 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-27 06:37:13 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-27 06:37:14 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-27 06:37:14 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-27 06:37:15 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=0a342fc2-4b75-4186-9e90-27d94d36ee9d "HTTP/1.1 200 OK"
+2026-10-27 06:38:49 - ERROR - ❌ خطا در سرور r3gm/wan2-2-fp8da-aoti-preview: GPU task aborted
+2026-10-27 06:38:49 - WARNING - ⚠️ فرآیند در سرور لغو شد.
+2026-10-27 06:38:49 - ERROR - ❌ عملیات روی تمام سرورها با شکست مواجه شد.
+2026-10-27 06:38:49 - INFO - 📄 فایل گزارش عدم موفقیت 'failed_d_seed34.txt' به صورت محلی ایجاد شد.
+2026-10-27 06:38:49 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'failed_d_seed34.txt'...
+2026-10-27 06:38:50 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1f9zr0yV4fzwetN8tc4-zlqnT7eVUzGcn/view?usp=drivesdk
+2026-10-27 06:38:50 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-27 12:59:08 - INFO - === شروع عملیات جدید ===
+2026-10-27 12:59:08 - INFO - 🌐 آدرس IP فعلی سیستم: 57.151.121.198
+2026-10-27 12:59:09 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-27 12:59:09 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-27 12:59:09 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-27 12:59:10 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-27 12:59:10 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-27 12:59:10 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 34 | سید (Seed) این اجرا: 34
+2026-10-27 12:59:10 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 4/10 | ویدیوی 5 از 10)
+2026-10-27 12:59:10 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-27 12:59:10 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-27 12:59:10 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-27 12:59:10 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-27 12:59:10 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-27 12:59:10 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-27 12:59:10 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-27 12:59:10 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-27 12:59:10 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-27 12:59:11 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-27 12:59:11 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=5a860e8b-a8c8-43d8-afb4-2f01b71ac382 "HTTP/1.1 200 OK"
+2026-10-27 13:00:59 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/9a9360eb4dfa4b97495d0e5c6f4ab4656e1432247b76a2d795c266f74f364bf0/tmpl3gijnwc.mp4 "HTTP/1.1 200 OK"
+2026-10-27 13:01:00 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-27 13:01:00 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-27 13:01:08 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 60.15MB ⬅️ حجم نهایی: 5.57MB)
+2026-10-27 13:01:08 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-27 13:01:08 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed34_v35.mp4'...
+2026-10-27 13:01:10 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1_-GOKT2Mlp9CeSq_3Oce_XSbYkzFCr0L/view?usp=drivesdk
+2026-10-27 13:01:11 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 35
+2026-10-27 13:01:11 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-27 13:01:11 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-27 19:35:16 - INFO - === شروع عملیات جدید ===
+2026-10-27 19:35:16 - INFO - 🌐 آدرس IP فعلی سیستم: 20.171.38.214
+2026-10-27 19:35:18 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-27 19:35:18 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-27 19:35:18 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-27 19:35:19 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-27 19:35:19 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-27 19:35:19 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 35 | سید (Seed) این اجرا: 35
+2026-10-27 19:35:19 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 4/10 | ویدیوی 6 از 10)
+2026-10-27 19:35:19 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-27 19:35:21 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-27 19:35:21 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-27 19:35:21 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-27 19:35:21 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-27 19:35:21 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-27 19:35:22 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-27 19:35:22 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-27 19:35:22 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-27 19:35:22 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-27 19:35:23 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=32ca4d15-ebcf-4497-baf7-010e26c30371 "HTTP/1.1 200 OK"
+2026-10-27 19:37:09 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/5fb4295b9248d820780726f8d669e6421ca067b8bdafbc6d42bf552a23cf229c/tmpihcsuwag.mp4 "HTTP/1.1 200 OK"
+2026-10-27 19:37:10 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-27 19:37:10 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-27 19:37:16 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 57.92MB ⬅️ حجم نهایی: 4.98MB)
+2026-10-27 19:37:16 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-27 19:37:16 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed35_v36.mp4'...
+2026-10-27 19:37:17 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1ZJWu1RH_-OyvsqTq6d9m96DZR7zD9cBd/view?usp=drivesdk
+2026-10-27 19:37:19 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 36
+2026-10-27 19:37:19 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-27 19:37:19 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-27 23:50:34 - INFO - === شروع عملیات جدید ===
+2026-10-27 23:50:35 - INFO - 🌐 آدرس IP فعلی سیستم: 130.131.239.125
+2026-10-27 23:50:36 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-27 23:50:36 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-27 23:50:36 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-27 23:50:37 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-27 23:50:37 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-27 23:50:37 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 36 | سید (Seed) این اجرا: 36
+2026-10-27 23:50:37 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 4/10 | ویدیوی 7 از 10)
+2026-10-27 23:50:37 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-27 23:50:37 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-27 23:50:37 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-27 23:50:37 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-27 23:50:37 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-27 23:50:37 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-27 23:50:37 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-27 23:50:37 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-27 23:50:38 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-27 23:50:38 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-27 23:50:38 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=e8810b60-8ce4-43ea-a8ce-90974a36966f "HTTP/1.1 200 OK"
+2026-10-27 23:52:23 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/189a15a4835b0e0958472a2e67cb22ea77e2209be19c9f93ec4f43eaac5f75f1/tmp3ssu1zsg.mp4 "HTTP/1.1 200 OK"
+2026-10-27 23:52:23 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-27 23:52:23 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-27 23:52:32 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 61.52MB ⬅️ حجم نهایی: 5.50MB)
+2026-10-27 23:52:32 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-27 23:52:32 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed36_v37.mp4'...
+2026-10-27 23:52:33 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1kY1Sn-mqI582NWa6whBKAiHmC97BMiuO/view?usp=drivesdk
+2026-10-27 23:52:35 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 37
+2026-10-27 23:52:35 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-27 23:52:35 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-28 04:21:28 - INFO - === شروع عملیات جدید ===
+2026-10-28 04:21:29 - INFO - 🌐 آدرس IP فعلی سیستم: 52.161.180.150
+2026-10-28 04:21:31 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-28 04:21:31 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-28 04:21:31 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-28 04:21:32 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-28 04:21:32 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-28 04:21:32 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 37 | سید (Seed) این اجرا: 37
+2026-10-28 04:21:32 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 4/10 | ویدیوی 8 از 10)
+2026-10-28 04:21:32 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-28 04:21:32 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-28 04:21:32 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-28 04:21:32 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-28 04:21:32 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-28 04:21:32 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-28 04:21:32 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-28 04:21:33 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-28 04:21:33 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-28 04:21:33 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-28 04:21:33 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=d915d979-ab53-4ec1-96d6-8314935a9fab "HTTP/1.1 200 OK"
+2026-10-28 04:23:17 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/fd8d2fbdec58455849d2ed6837872ed7a8f41fcbe7c8b9b5f354a0212dd5b933/tmp45xbgf6h.mp4 "HTTP/1.1 200 OK"
+2026-10-28 04:23:18 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-28 04:23:18 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-28 04:23:23 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 58.17MB ⬅️ حجم نهایی: 5.24MB)
+2026-10-28 04:23:23 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-28 04:23:23 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed37_v38.mp4'...
+2026-10-28 04:23:25 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1JRuy0HiMg7NrOURBDXFfPcMbCfmI3boy/view?usp=drivesdk
+2026-10-28 04:23:26 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 38
+2026-10-28 04:23:26 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-28 04:23:26 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-28 11:16:34 - INFO - === شروع عملیات جدید ===
+2026-10-28 11:16:34 - INFO - 🌐 آدرس IP فعلی سیستم: 74.235.149.146
+2026-10-28 11:16:35 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-28 11:16:35 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-28 11:16:35 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-28 11:16:36 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-28 11:16:36 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-28 11:16:36 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 38 | سید (Seed) این اجرا: 38
+2026-10-28 11:16:36 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 4/10 | ویدیوی 9 از 10)
+2026-10-28 11:16:36 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-28 11:16:36 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-28 11:16:36 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-28 11:16:36 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-28 11:16:36 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-28 11:16:36 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-28 11:16:36 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-28 11:16:36 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-28 11:16:36 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-28 11:16:36 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-28 11:16:36 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=820f4be2-d2a8-4468-a745-bbcabd438f05 "HTTP/1.1 200 OK"
+2026-10-28 11:18:19 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/d25eaae66673192cd9136fadcd061bcc04b5c51cf02430530badd271f6eb774e/tmp_3pfx6ep.mp4 "HTTP/1.1 200 OK"
+2026-10-28 11:18:19 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-28 11:18:19 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-28 11:18:26 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 60.85MB ⬅️ حجم نهایی: 5.38MB)
+2026-10-28 11:18:26 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-28 11:18:26 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed38_v39.mp4'...
+2026-10-28 11:18:28 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1pJc4Y3HZQa9zLMnd9CBWtOjJ-g8qn88F/view?usp=drivesdk
+2026-10-28 11:18:29 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 39
+2026-10-28 11:18:29 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-28 11:18:29 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-28 18:14:22 - INFO - === شروع عملیات جدید ===
+2026-10-28 18:14:22 - INFO - 🌐 آدرس IP فعلی سیستم: 172.171.107.87
+2026-10-28 18:14:23 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-28 18:14:23 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-28 18:14:24 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-28 18:14:24 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-28 18:14:24 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-28 18:14:24 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 39 | سید (Seed) این اجرا: 39
+2026-10-28 18:14:24 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 4/10 | ویدیوی 10 از 10)
+2026-10-28 18:14:24 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-28 18:14:25 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-28 18:14:25 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-28 18:14:25 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-28 18:14:25 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-28 18:14:25 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-28 18:14:26 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-28 18:14:26 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-28 18:14:26 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-28 18:14:27 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-28 18:14:27 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=997199e2-d93c-4c2e-b077-a371f377d147 "HTTP/1.1 200 OK"
+2026-10-28 18:16:09 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/929c37d6f3286afccb83bec65ecb9e55db9c2ec38e78d05bb5ede429875aea86/tmpchnrodxj.mp4 "HTTP/1.1 200 OK"
+2026-10-28 18:16:10 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-28 18:16:10 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-28 18:16:18 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 59.32MB ⬅️ حجم نهایی: 5.35MB)
+2026-10-28 18:16:18 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-28 18:16:18 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed39_v40.mp4'...
+2026-10-28 18:16:19 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1yEmtVI1YsWOpULEfPGmUfMTTi9RQegxp/view?usp=drivesdk
+2026-10-28 18:16:21 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 40
+2026-10-28 18:16:21 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-28 18:16:21 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-29 00:12:41 - INFO - === شروع عملیات جدید ===
+2026-10-29 00:12:41 - INFO - 🌐 آدرس IP فعلی سیستم: 20.221.68.192
+2026-10-29 00:12:52 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-29 00:12:52 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-29 00:12:52 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-29 00:12:53 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-29 00:12:53 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-29 00:12:53 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 40 | سید (Seed) این اجرا: 40
+2026-10-29 00:12:53 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 5/10 | ویدیوی 1 از 10)
+2026-10-29 00:12:53 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-29 00:12:53 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-29 00:12:53 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-29 00:12:53 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-29 00:12:53 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-29 00:12:53 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-29 00:12:53 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-29 00:12:53 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-29 00:12:54 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-29 00:12:54 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-29 00:12:54 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=c9898337-0362-4900-9770-7920b2e8b6b5 "HTTP/1.1 200 OK"
+2026-10-29 00:14:38 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/e72ab3a095e49c1debade59f328f2cf10562de32b6716c519ec18104ae0737b1/tmp69iii8ih.mp4 "HTTP/1.1 200 OK"
+2026-10-29 00:14:39 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-29 00:14:39 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-29 00:14:46 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 60.15MB ⬅️ حجم نهایی: 5.44MB)
+2026-10-29 00:14:46 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-29 00:14:46 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed40_v41.mp4'...
+2026-10-29 00:14:47 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1fnwCZckpulOR4I7zqku9gbSUL7JJCb4B/view?usp=drivesdk
+2026-10-29 00:14:50 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 41
+2026-10-29 00:14:50 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-29 00:14:50 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-29 04:57:42 - INFO - === شروع عملیات جدید ===
+2026-10-29 04:57:43 - INFO - 🌐 آدرس IP فعلی سیستم: 20.55.47.21
+2026-10-29 04:57:44 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-29 04:57:44 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-29 04:57:44 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-29 04:57:45 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-29 04:57:45 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-29 04:57:45 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 41 | سید (Seed) این اجرا: 41
+2026-10-29 04:57:45 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 5/10 | ویدیوی 2 از 10)
+2026-10-29 04:57:45 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-29 04:57:45 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-29 04:57:45 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-29 04:57:45 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-29 04:57:45 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-29 04:57:45 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-29 04:57:45 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-29 04:57:45 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-29 04:57:45 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-29 04:57:45 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-29 04:57:45 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=be2e20d5-3ed5-48ce-bd9c-65034cf9f4fc "HTTP/1.1 200 OK"
+2026-10-29 04:59:33 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/e0f4022c052188c5ba1d006e2ec50b85c15b1ffdab4962e08288dc3ac79c9bfd/tmpfryy14eu.mp4 "HTTP/1.1 200 OK"
+2026-10-29 04:59:33 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-29 04:59:33 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-29 04:59:40 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 57.62MB ⬅️ حجم نهایی: 5.01MB)
+2026-10-29 04:59:40 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-29 04:59:40 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed41_v42.mp4'...
+2026-10-29 04:59:42 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1KljNfN1w9JjsOeIvK2nvALjijckoknbZ/view?usp=drivesdk
+2026-10-29 04:59:43 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 42
+2026-10-29 04:59:43 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-29 04:59:43 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-29 11:23:11 - INFO - === شروع عملیات جدید ===
+2026-10-29 11:23:11 - INFO - 🌐 آدرس IP فعلی سیستم: 132.196.21.183
+2026-10-29 11:23:13 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-29 11:23:13 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-29 11:23:13 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-29 11:23:14 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-29 11:23:14 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-29 11:23:14 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 42 | سید (Seed) این اجرا: 42
+2026-10-29 11:23:14 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 5/10 | ویدیوی 3 از 10)
+2026-10-29 11:23:14 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-29 11:23:14 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-29 11:23:14 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-29 11:23:14 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-29 11:23:14 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-29 11:23:14 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-29 11:23:14 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-29 11:23:14 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-29 11:23:15 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-29 11:23:15 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-29 11:23:15 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=d33ff35e-58c0-497f-9132-c9a6cb3a8587 "HTTP/1.1 200 OK"
+2026-10-29 11:25:34 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/717c67ab83131e717d809197eaae9a7cdcf95399b43f33cc69f4c26662e4279d/tmpl86g1xxv.mp4 "HTTP/1.1 200 OK"
+2026-10-29 11:25:35 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-29 11:25:35 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-29 11:25:39 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 62.04MB ⬅️ حجم نهایی: 5.64MB)
+2026-10-29 11:25:39 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-29 11:25:39 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed42_v43.mp4'...
+2026-10-29 11:25:41 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1mro0Y515B1I-MraflnCH62P032fywlsY/view?usp=drivesdk
+2026-10-29 11:25:42 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 43
+2026-10-29 11:25:42 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-29 11:25:42 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-29 18:21:12 - INFO - === شروع عملیات جدید ===
+2026-10-29 18:21:12 - INFO - 🌐 آدرس IP فعلی سیستم: 20.12.182.164
+2026-10-29 18:21:14 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-29 18:21:14 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-29 18:21:14 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-29 18:21:15 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-29 18:21:15 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-29 18:21:15 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 43 | سید (Seed) این اجرا: 43
+2026-10-29 18:21:15 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 5/10 | ویدیوی 4 از 10)
+2026-10-29 18:21:15 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-29 18:21:15 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-29 18:21:15 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-29 18:21:15 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-29 18:21:15 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-29 18:21:15 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-29 18:21:16 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-29 18:21:16 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-29 18:21:16 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-29 18:21:16 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-29 18:21:16 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=6b74d121-4e67-4c88-8ebf-9883ea6e8680 "HTTP/1.1 200 OK"
+2026-10-29 18:22:51 - ERROR - ❌ خطا در سرور r3gm/wan2-2-fp8da-aoti-preview: GPU task aborted
+2026-10-29 18:22:51 - WARNING - ⚠️ فرآیند در سرور لغو شد.
+2026-10-29 18:22:51 - ERROR - ❌ عملیات روی تمام سرورها با شکست مواجه شد.
+2026-10-29 18:22:51 - INFO - 📄 فایل گزارش عدم موفقیت 'failed_d_seed43.txt' به صورت محلی ایجاد شد.
+2026-10-29 18:22:51 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'failed_d_seed43.txt'...
+2026-10-29 18:22:52 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/17_bqKFNZsxLgTys8B2gSXKkRP_0QkUjk/view?usp=drivesdk
+2026-10-29 18:22:52 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-30 00:16:15 - INFO - === شروع عملیات جدید ===
+2026-10-30 00:16:15 - INFO - 🌐 آدرس IP فعلی سیستم: 172.208.158.195
+2026-10-30 00:16:16 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-30 00:16:16 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-30 00:16:17 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-30 00:16:17 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-30 00:16:17 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-30 00:16:17 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 43 | سید (Seed) این اجرا: 43
+2026-10-30 00:16:17 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 5/10 | ویدیوی 4 از 10)
+2026-10-30 00:16:17 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-30 00:16:17 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-30 00:16:18 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-30 00:16:18 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-30 00:16:18 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-30 00:16:18 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-30 00:16:18 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-30 00:16:18 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-30 00:16:19 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-30 00:16:19 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-30 00:16:19 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=a37b3d0e-13d5-4485-ab3a-6f5c9716a44d "HTTP/1.1 200 OK"
+2026-10-30 00:17:55 - ERROR - ❌ خطا در سرور r3gm/wan2-2-fp8da-aoti-preview: GPU task aborted
+2026-10-30 00:17:55 - WARNING - ⚠️ فرآیند در سرور لغو شد.
+2026-10-30 00:17:55 - ERROR - ❌ عملیات روی تمام سرورها با شکست مواجه شد.
+2026-10-30 00:17:55 - INFO - 📄 فایل گزارش عدم موفقیت 'failed_d_seed43.txt' به صورت محلی ایجاد شد.
+2026-10-30 00:17:55 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'failed_d_seed43.txt'...
+2026-10-30 00:17:56 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1Sv9aLa_fFOgvZstMlywfEg3SVc_oZWYo/view?usp=drivesdk
+2026-10-30 00:17:56 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-30 04:59:05 - INFO - === شروع عملیات جدید ===
+2026-10-30 04:59:05 - INFO - 🌐 آدرس IP فعلی سیستم: 172.182.201.161
+2026-10-30 04:59:06 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-30 04:59:06 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-30 04:59:06 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-30 04:59:07 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-30 04:59:07 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-30 04:59:07 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 43 | سید (Seed) این اجرا: 43
+2026-10-30 04:59:07 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 5/10 | ویدیوی 4 از 10)
+2026-10-30 04:59:07 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-30 04:59:07 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-30 04:59:07 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-30 04:59:08 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-30 04:59:08 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-30 04:59:08 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-30 04:59:08 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-30 04:59:08 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-30 04:59:09 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-30 04:59:09 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-30 04:59:09 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=89e74d99-cf40-4626-8ce6-6784633a4987 "HTTP/1.1 200 OK"
+2026-10-30 05:00:57 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/75a9c5f8cb5739ec75785cfae1d0b93d4fbba4ff518345c850d967cb3c76a566/tmph9g2h9fh.mp4 "HTTP/1.1 200 OK"
+2026-10-30 05:00:58 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-30 05:00:58 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-30 05:01:05 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 61.30MB ⬅️ حجم نهایی: 5.73MB)
+2026-10-30 05:01:05 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-30 05:01:05 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed43_v44.mp4'...
+2026-10-30 05:01:07 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1Tk7HZI1Q4ril0kAur5-Kqj9N_o1tmx1L/view?usp=drivesdk
+2026-10-30 05:01:08 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 44
+2026-10-30 05:01:08 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-30 05:01:08 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-30 11:25:52 - INFO - === شروع عملیات جدید ===
+2026-10-30 11:25:52 - INFO - 🌐 آدرس IP فعلی سیستم: 20.125.176.176
+2026-10-30 11:25:53 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-30 11:25:53 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-30 11:25:54 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-30 11:25:54 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-30 11:25:54 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-30 11:25:54 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 44 | سید (Seed) این اجرا: 44
+2026-10-30 11:25:54 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 5/10 | ویدیوی 5 از 10)
+2026-10-30 11:25:54 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-30 11:25:54 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-30 11:25:54 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-30 11:25:54 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-30 11:25:54 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-30 11:25:55 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-30 11:25:55 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-30 11:25:55 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-30 11:25:55 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-30 11:25:55 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-30 11:25:55 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=285706d5-88a7-4167-8200-457c386a807d "HTTP/1.1 200 OK"
+2026-10-30 11:27:34 - ERROR - ❌ خطا در سرور r3gm/wan2-2-fp8da-aoti-preview: GPU task aborted
+2026-10-30 11:27:34 - WARNING - ⚠️ فرآیند در سرور لغو شد.
+2026-10-30 11:27:34 - ERROR - ❌ عملیات روی تمام سرورها با شکست مواجه شد.
+2026-10-30 11:27:34 - INFO - 📄 فایل گزارش عدم موفقیت 'failed_d_seed44.txt' به صورت محلی ایجاد شد.
+2026-10-30 11:27:34 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'failed_d_seed44.txt'...
+2026-10-30 11:27:34 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1l3EnWWKrMCfw4NOiJQHxlWVm3hsqTOD1/view?usp=drivesdk
+2026-10-30 11:27:34 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-30 18:14:19 - INFO - === شروع عملیات جدید ===
+2026-10-30 18:14:19 - INFO - 🌐 آدرس IP فعلی سیستم: 172.190.93.129
+2026-10-30 18:14:20 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-30 18:14:20 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-30 18:14:21 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-30 18:14:21 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-30 18:14:21 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-30 18:14:21 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 44 | سید (Seed) این اجرا: 44
+2026-10-30 18:14:21 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 5/10 | ویدیوی 5 از 10)
+2026-10-30 18:14:21 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-30 18:14:21 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-30 18:14:22 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-30 18:14:22 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-30 18:14:22 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-30 18:14:22 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-30 18:14:22 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-30 18:14:22 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-30 18:14:22 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-30 18:14:22 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-30 18:14:22 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=4971add0-61dd-47c4-a0a5-56b9f2a71fc0 "HTTP/1.1 200 OK"
+2026-10-30 18:16:21 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/700fffce2d9fa7007e1d5eed04fabc6a248c117ac5e862a4ca211a689cd8f1b8/tmpbprmab66.mp4 "HTTP/1.1 200 OK"
+2026-10-30 18:16:22 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-30 18:16:22 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-30 18:16:29 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 59.01MB ⬅️ حجم نهایی: 5.38MB)
+2026-10-30 18:16:29 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-30 18:16:29 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed44_v45.mp4'...
+2026-10-30 18:16:31 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1FApOl-VKCsNfVYZh3z5Wr6siVRSVPlqt/view?usp=drivesdk
+2026-10-30 18:16:32 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 45
+2026-10-30 18:16:32 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-30 18:16:32 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-30 23:48:16 - INFO - === شروع عملیات جدید ===
+2026-10-30 23:48:16 - INFO - 🌐 آدرس IP فعلی سیستم: 20.57.223.145
+2026-10-30 23:48:18 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-30 23:48:18 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-30 23:48:18 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-30 23:48:19 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-30 23:48:19 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-30 23:48:19 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 45 | سید (Seed) این اجرا: 45
+2026-10-30 23:48:19 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 5/10 | ویدیوی 6 از 10)
+2026-10-30 23:48:19 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-30 23:48:19 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-30 23:48:19 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-30 23:48:19 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-30 23:48:19 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-30 23:48:19 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-30 23:48:20 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-30 23:48:20 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-30 23:48:20 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-30 23:48:21 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-30 23:48:21 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=19ae88b4-8374-4b9b-b26d-8ba596c76f52 "HTTP/1.1 200 OK"
+2026-10-30 23:49:56 - ERROR - ❌ خطا در سرور r3gm/wan2-2-fp8da-aoti-preview: GPU task aborted
+2026-10-30 23:49:56 - WARNING - ⚠️ فرآیند در سرور لغو شد.
+2026-10-30 23:49:56 - ERROR - ❌ عملیات روی تمام سرورها با شکست مواجه شد.
+2026-10-30 23:49:56 - INFO - 📄 فایل گزارش عدم موفقیت 'failed_d_seed45.txt' به صورت محلی ایجاد شد.
+2026-10-30 23:49:56 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'failed_d_seed45.txt'...
+2026-10-30 23:49:58 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1yTubpu6C5q0NAn80aMBm4gXQaJQnV1Ig/view?usp=drivesdk
+2026-10-30 23:49:58 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-31 04:48:42 - INFO - === شروع عملیات جدید ===
+2026-10-31 04:48:42 - INFO - 🌐 آدرس IP فعلی سیستم: 4.154.183.178
+2026-10-31 04:48:44 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-31 04:48:44 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-31 04:48:44 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-31 04:48:45 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-31 04:48:45 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-31 04:48:45 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 45 | سید (Seed) این اجرا: 45
+2026-10-31 04:48:45 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 5/10 | ویدیوی 6 از 10)
+2026-10-31 04:48:45 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-31 04:48:45 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-31 04:48:45 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-31 04:48:45 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-31 04:48:45 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-31 04:48:45 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-31 04:48:46 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-31 04:48:46 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-31 04:48:47 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-31 04:48:47 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-31 04:48:47 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=88d581ef-9cf7-4d4f-a17c-535094626722 "HTTP/1.1 200 OK"
+2026-10-31 04:50:30 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/36826660730fc4b2f2009a6651cbbc623a8487a170c5478008d04f69557db7c0/tmpycn1wy24.mp4 "HTTP/1.1 200 OK"
+2026-10-31 04:50:31 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-31 04:50:31 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-31 04:50:39 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 60.24MB ⬅️ حجم نهایی: 5.45MB)
+2026-10-31 04:50:39 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-31 04:50:39 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed45_v46.mp4'...
+2026-10-31 04:50:40 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1PgKZjSA17i_OLOWwFVEXLoOFIpH4Cejk/view?usp=drivesdk
+2026-10-31 04:50:41 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 46
+2026-10-31 04:50:41 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-31 04:50:41 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-31 11:19:43 - INFO - === شروع عملیات جدید ===
+2026-10-31 11:19:43 - INFO - 🌐 آدرس IP فعلی سیستم: 13.71.229.195
+2026-10-31 11:19:44 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-31 11:19:44 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-31 11:19:45 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-31 11:19:45 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-31 11:19:45 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-31 11:19:45 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 46 | سید (Seed) این اجرا: 46
+2026-10-31 11:19:45 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 5/10 | ویدیوی 7 از 10)
+2026-10-31 11:19:45 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-31 11:19:45 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-31 11:19:45 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-31 11:19:46 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-31 11:19:46 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-31 11:19:46 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-31 11:19:46 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-31 11:19:46 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-31 11:19:47 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-31 11:19:47 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-31 11:19:47 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=98ae115a-476c-4317-b22e-8b075fd8a8b4 "HTTP/1.1 200 OK"
+2026-10-31 11:21:30 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/file=/tmp/gradio/5e06b20b9ad9639d905003c0bbebe48cbe02405d305d7fef84c4a2f4554b5cd2/tmpujtjfwdo.mp4 "HTTP/1.1 200 OK"
+2026-10-31 11:21:31 - INFO - 🎬 ویدیوی خام با موفقیت از سرور دریافت شد.
+2026-10-31 11:21:31 - INFO - 🛠️ شروع فرآیند تعمیر و فشرده‌سازی ویدیو با FFmpeg (CRF: 12 | YUV420P)...
+2026-10-31 11:21:38 - INFO - ✅ ویدیوی استاندارد با موفقیت ساخته شد! (حجم خام: 58.90MB ⬅️ حجم نهایی: 5.26MB)
+2026-10-31 11:21:38 - INFO - 🟢 پردازش بدون معطلی انجام شد. منابع در اولین تلاش در دسترس سیستم قرار گرفتند.
+2026-10-31 11:21:38 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'd_seed46_v47.mp4'...
+2026-10-31 11:21:40 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1RkJAxiE4uGWmIkCIR0rTn3p4HiAMI4PO/view?usp=drivesdk
+2026-10-31 11:21:41 - INFO - 💾 وضعیت با موفقیت ذخیره شد. تعداد کل ویدیوهای موفق: 47
+2026-10-31 11:21:41 - INFO - 🗑️ ویدیوها در فضای موقت قرار داشتند و به صورت خودکار پاک‌سازی شدند.
+2026-10-31 11:21:41 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-31 17:37:41 - INFO - === شروع عملیات جدید ===
+2026-10-31 17:37:41 - INFO - 🌐 آدرس IP فعلی سیستم: 172.174.190.113
+2026-10-31 17:37:42 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-31 17:37:42 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-31 17:37:43 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-31 17:37:43 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-31 17:37:43 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-31 17:37:43 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 47 | سید (Seed) این اجرا: 47
+2026-10-31 17:37:43 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 5/10 | ویدیوی 8 از 10)
+2026-10-31 17:37:43 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-31 17:37:43 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-31 17:37:43 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-31 17:37:43 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-31 17:37:43 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-31 17:37:44 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-31 17:37:44 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-31 17:37:44 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-31 17:37:44 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-31 17:37:44 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-31 17:37:44 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=e124f937-79a5-45d1-a2d8-045e3d1fb0fa "HTTP/1.1 200 OK"
+2026-10-31 17:39:27 - ERROR - ❌ خطا در سرور r3gm/wan2-2-fp8da-aoti-preview: GPU task aborted
+2026-10-31 17:39:27 - WARNING - ⚠️ فرآیند در سرور لغو شد.
+2026-10-31 17:39:27 - ERROR - ❌ عملیات روی تمام سرورها با شکست مواجه شد.
+2026-10-31 17:39:27 - INFO - 📄 فایل گزارش عدم موفقیت 'failed_d_seed47.txt' به صورت محلی ایجاد شد.
+2026-10-31 17:39:27 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'failed_d_seed47.txt'...
+2026-10-31 17:39:29 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1Gcx6HPWEZ38N751QTrGzY7WyEucn0YN7/view?usp=drivesdk
+2026-10-31 17:39:29 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
+2026-10-31 23:09:22 - INFO - === شروع عملیات جدید ===
+2026-10-31 23:09:22 - INFO - 🌐 آدرس IP فعلی سیستم: 4.236.174.145
+2026-10-31 23:09:23 - INFO - 💾 لیست آی‌پی‌ها با موفقیت در مخزن گیت‌هاب ذخیره شد.
+2026-10-31 23:09:23 - WARNING - ⚠️ هشدار: متغیر محیطی 'HF_TOKEN' یافت نشد. پردازش با دسترسی عمومی اجرا می‌شود.
+2026-10-31 23:09:24 - INFO - 📥 در حال دانلود عکس 'd.png' از گوگل درایو...
+2026-10-31 23:09:24 - INFO - ✅ عکس 'd.png' با موفقیت در مسیر موقت ذخیره شد.
+2026-10-31 23:09:24 - INFO - عکس انتخاب شده برای پردازش: d.png
+2026-10-31 23:09:24 - INFO - 🌱 تعداد ویدیوهای موفق قبلی: 47 | سید (Seed) این اجرا: 47
+2026-10-31 23:09:24 - INFO - 🎬 اکشن این اجرا: [پرامپت مخفی در سکرت‌ها] (اکشن 5/10 | ویدیوی 8 از 10)
+2026-10-31 23:09:24 - INFO - 🔄 در حال بررسی وضعیت زنده بودن سرور: r3gm/wan2-2-fp8da-aoti-preview
+2026-10-31 23:09:25 - INFO - 📊 استعلام لایو سرور r3gm/wan2-2-fp8da-aoti-preview: [وضعیت: RUNNING] | [سخت‌افزار: {'current': 'zero-a10g', 'requested': 'zero-a10g'}]
+2026-10-31 23:09:25 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-31 23:09:25 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview "HTTP/1.1 200 OK"
+2026-10-31 23:09:25 - INFO - HTTP Request: GET https://huggingface.co/api/spaces/r3gm/wan2-2-fp8da-aoti-preview/runtime "HTTP/1.1 200 OK"
+2026-10-31 23:09:25 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/config "HTTP/1.1 200 OK"
+2026-10-31 23:09:25 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/info?serialize=False "HTTP/1.1 200 OK"
+2026-10-31 23:09:25 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/py_client/initiated "HTTP/1.1 200 OK"
+2026-10-31 23:09:25 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/upload "HTTP/1.1 200 OK"
+2026-10-31 23:09:25 - INFO - HTTP Request: POST https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/join "HTTP/1.1 200 OK"
+2026-10-31 23:09:25 - INFO - HTTP Request: GET https://r3gm-wan2-2-fp8da-aoti-preview.hf.space/gradio_api/queue/data?session_hash=ee24904a-0073-4ead-9338-0de4abeb6e0e "HTTP/1.1 200 OK"
+2026-10-31 23:11:00 - ERROR - ❌ خطا در سرور r3gm/wan2-2-fp8da-aoti-preview: GPU task aborted
+2026-10-31 23:11:00 - WARNING - ⚠️ فرآیند در سرور لغو شد.
+2026-10-31 23:11:00 - ERROR - ❌ عملیات روی تمام سرورها با شکست مواجه شد.
+2026-10-31 23:11:00 - INFO - 📄 فایل گزارش عدم موفقیت 'failed_d_seed47.txt' به صورت محلی ایجاد شد.
+2026-10-31 23:11:00 - INFO - ☁️ در حال اتصال به گوگل درایو برای آپلود 'failed_d_seed47.txt'...
+2026-10-31 23:11:02 - INFO - ✅ فایل با موفقیت در گوگل درایو آپلود شد! لینک مشاهده: https://drive.google.com/file/d/1yAOxAlosFG7CcHSb7O5llAYfwMbWFw7l/view?usp=drivesdk
+2026-10-31 23:11:02 - INFO - 🗑️ فایل عکس موقت پس از پردازش حذف شد.
