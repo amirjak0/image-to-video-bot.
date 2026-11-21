@@ -1,0 +1,92 @@
+name: Generate Video Automatically
+
+on:
+  schedule:
+    - cron: '0 */2 * * *' # اجرای خودکار هر ۲ ساعت یک‌بار
+  workflow_dispatch: # امکان اجرای دستی
+
+permissions:
+  contents: write # مجوز لازم برای ثبت نتایج و فورس‌پوش
+  actions: write  # مجوز لازم برای پاک‌سازی تاریخچه اجراهای قدیمی پنل
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Auto-create requirements.txt if missing
+        run: |
+          if [ ! -f requirements.txt ]; then
+            echo -e "gradio_client\ngoogle-api-python-client\ngoogle-auth\ngoogle-auth-httplib2\ngoogle-auth-oauthlib" > requirements.txt
+            echo "✅ فایل requirements.txt به صورت خودکار ساخته شد."
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: pip
+
+      - name: Install dependencies & FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install google-api-python-client google-auth google-auth-httplib2 google-auth-oauthlib
+
+      - name: Clean up old videos and keep folders
+        run: |
+          echo "🧹 در حال حذف ویدیوهای قدیمی برای آزادسازی فضا..."
+          git rm -r --cached GeneratedVideos/*.mp4 || true
+          git rm -r --cached *.mp4 || true
+          rm -f GeneratedVideos/*.mp4
+          rm -f *.mp4
+          
+          mkdir -p ImagesToVideo
+          touch ImagesToVideo/.gitkeep
+          git add ImagesToVideo/.gitkeep
+          
+          if ! grep -q "*.mp4" .gitignore 2>/dev/null; then
+            echo "*.mp4" >> .gitignore
+          fi
+
+      - name: Run script
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          GDRIVE_CLIENT_ID: ${{ secrets.GDRIVE_CLIENT_ID }}
+          GDRIVE_CLIENT_SECRET: ${{ secrets.GDRIVE_CLIENT_SECRET }}
+          GDRIVE_REFRESH_TOKEN: ${{ secrets.GDRIVE_REFRESH_TOKEN }}
+          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+          ACTIONS_JSON: ${{ secrets.ACTIONS_JSON }} # 👈 پرامپت‌های مخفی از سکرت خوانده می‌شوند
+        run: python main.py
+
+      - name: Report Repository Size
+        run: |
+          echo "📊 === گزارش حجم مخزن در سرور ==="
+          echo "حجم فایل‌های فعلی:"
+          du -sh .
+          echo "حجم تاریخچه گیت مخزن:"
+          du -sh .git
+          echo "================================="
+
+      - name: Commit and Force-push (Clean History)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git checkout --orphan temp_branch
+          git add -A
+          git commit -m "Auto-update & clean history [skip ci]"
+          git push origin temp_branch:main --force
+
+      - name: Delete workflow runs older than 24 hours
+        run: |
+          gh run list --limit 100 --json databaseId,createdAt -q '.[] | select((now - (.createdAt | fromdateiso8601)) > 86400) | .databaseId' | \
+          xargs -r -I {} gh run delete {}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
